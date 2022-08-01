@@ -1,0 +1,209 @@
+.navigation-block {
+    background: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    box-shadow: 2px 2px 2px #744D82;
+}
+
+.banner-section {
+    min-height: 100vh;
+    background: url('../IMAGES/home-banner.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.inner-banner-section {
+    height: 300px;
+    background: url('../IMAGES/about-banner.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    font-size: 5rem;
+    font-family: 'Cera-Bold';
+    letter-spacing: 1px;
+    line-height: initial;
+}
+
+.section-heading {
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Cera-Bold';
+    letter-spacing: 5px;
+    line-height: 60px;
+    padding-bottom: 80px;
+}
+
+.experience {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Mont-Semibold';
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.count {
+    font-size: 70px;
+    color: #c6e211;
+    display: block;
+    line-height: 80px;
+    margin-top: -40px;
+}
+
+.service-heading, .footer-text, .footer-copyright {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Cera-Medium';
+    font-size: 100%;
+    color: #222;
+    margin: 16px 0;
+}
+
+.sub__headings {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #666;
+    display: block;
+}
+
+.horizontal-line {
+    width: 100%;
+    display: block;
+    height: 2px;
+    background: #555;
+    margin: 30px 0;
+}
+
+.carousel-arrows .bi:before {
+    font-size: 30px;
+}
+
+.footer-section {
+    padding: 50px 10px 10px 10px;
+    background: url("../IMAGES/footer-banner.png") no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.footer-logo {
+    filter: brightness(0) invert(1);
+    width: 80px;
+}
+
+.footer-links {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.footer-links img {
+    filter: brightness(0) invert(1);
+    width: 20px;
+}
+
+.footer-links:hover {
+    background: #444;
+    transition: 0.5s;
+}
+
+.footer-links:hover img {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.footer-copyright {
+    color: #aaa !important;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    width: calc(100% + 0px);
+    text-transform: capitalize;
+}
+
+.modal.fade:not(.in).right .modal-dialog {
+    -webkit-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.menu-items {
+    display: block;
+    font-family: 'Mont-Medium';
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 6px 0;
+}
+
+.menu-items:hover {
+    text-decoration: none;
+}
+
+.badge-with-icon {
+    display: flex;
+    align-items: center;
+    background: #eee;
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Mont-SemiBold';
+    color: #444;
+    letter-spacing: 0.5px;
+}
+
+.badge-with-icon img {
+    height: 20px;
+    margin-right: 8px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.projects-block {
+    background: url(../IMAGES/projects-bg.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Mont-SemiBold';
+}
