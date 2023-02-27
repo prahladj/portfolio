@@ -1,0 +1,238 @@
+.ring-heading {
+    position: relative;
+    color: rgb(var(--blue));
+    letter-spacing: 1px;
+    padding-left: 50px;
+}
+
+.ring-heading::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    transform: translateY(-50%);
+    background: rgb(var(--blue));
+}
+
+.project-type {
+    opacity: 0.4;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.company-names {
+    color: #71777f;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 24px;
+    letter-spacing: 1px;
+    font-family: 'mMedium';
+}
+
+.social-links {
+    font-size: 16px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.social-links i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-me-banner-section {
+    background: url("../IMAGES/about-me-background.png");
+    padding: 70px 0;
+    color: rgba(var(--white));
+}
+
+.contact-me-banner-section {
+    background: url("../IMAGES/contact-me-background.png");
+    padding: 70px 0;
+    color: rgba(var(--white));
+}
+
+.portfolio-banner-section {
+    background: url("../IMAGES/portfolio-background.png");
+    padding: 70px 0;
+    color: rgba(var(--white));
+}
+
+.software-icons {
+    height: 30px;
+    margin: 10px;
+    width: auto;
+    object-fit: contain;
+}
+
+.software-icons:hover {
+    height: 32px;
+    transition: 0.5s;
+}
+
+.tools-list li {
+    list-style-type: none;
+    font-size: 16px;
+    margin: 12px;
+}
+
+.experience-logos {
+    height: 40px;
+    width: 80%;
+    object-fit: contain;
+}
+
+.worked-companies {
+    padding: 30px;
+}
+
+.worked-companies small {
+    color: rgba(0, 0, 0, 0.3)
+}
+
+.worked-companies h5 {
+    text-transform: lowercase;
+}
+
+.contact-links {
+    color: rgb(var(--dark-blue));
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.contact-links:hover {
+    color: rgb(var(--black));
+}
+
+.contact-links span {
+    display: block;
+    margin-top: 16px;
+    font-size: 14px;
+    color: rgba(var(--dark-blue), 0.3);
+    font-family: "mMedium";
+    letter-spacing: 0.5px;
+}
+
+.contact-links i {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-links i:hover {
+    background: #e7e7e7 !important;
+    transition: 0.5s;
+}
+
+#map {
+    width: 100%;
+    height: 450px;
+}
+
+.type-of-project {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.project-name {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.technologies-icons img {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.project-details {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+@media (max-width:590px) {
+    .navbar-brand img {
+        height: 30px;
+    }
+
+    .h1, h1 {
+        font-size: 60px;
+    }
+
+    .h2, h2 {
+        font-size: 40px;
+    }
+
+    .h3, h3 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .h5, h5 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+
+    .card {
+        padding: 20px;
+    }
+
+    .btn {
+        padding: 14px 20px;
+    }
+}
+
+@media (max-width:1000px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 47px;
+        background: rgba(var(--white));
+        width: 100%;
+        left: 0;
+    }
+
+    .navbar-collapse .nav-link {
+        width: 100%;
+        padding: 15px 30px;
+    }
+
+    .nav-link.nav-link-highlight {
+        font-family: "mMedium";
+        background-color: transparent !important;
+    }
+
+    .nav-link.nav-link-highlight span {
+        color: rgba(var(--black));
+    }
+
+    .nav-item {
+        background: rgb(var(--blue), 0.1);
+    }
+}
