@@ -2612,7 +2612,7 @@ textarea.form-control {
     -ms-user-select: none;
     user-select: none;
     border: 3px solid transparent;
-    padding: 20px 40px;
+    padding: 12px 20px;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     display: flex;
     align-items: center;
@@ -2956,17 +2956,17 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-    color: #007bff;
+    color: rgba(var(--blue));
     background-color: transparent;
     background-image: none;
-    border-color: #007bff;
+    border-color: rgba(var(--blue));
     font-weight: 500;
 }
 
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff
+    background-color: rgba(var(--blue));
+    border-color: rgba(var(--blue))
 }
 
 .btn-outline-primary.focus,
