@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "mont-regular";
+  src: url("../assets/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "mont-medium";
+  src: url("../assets/fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: "mont-semibold";
+  src: url("../assets/fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "mont-bold";
+  src: url("../assets/fonts/Montserrat-Bold.ttf");
+}
+
+.mont-regular {
+  font-family: "mont-regular";
+}
+
+.mont-medium {
+  font-family: "mont-medium";
+}
+
+.mont-semibold {
+  font-family: "mont-semibold";
+}
+
+.mont-bold {
+  font-family: "mont-bold";
+}
