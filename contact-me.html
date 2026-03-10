@@ -89,41 +89,27 @@
 
       
 
-          <form id="fcf-form-id" class="fcf-form-class" method="post" action="send_email.php">
-
-            <div class="fcf-form-group">
-              <label for="Name" class="fcf-label">Your name</label>
-              <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-              </div>
-            </div>
-
-            <div class="fcf-form-group">
-              <label for="Email" class="fcf-label">Your email address</label>
-              <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-              </div>
-            </div>
-
-            <div class="fcf-form-group">
-              <label for="Message" class="fcf-label">Your message</label>
-              <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000"
-                  required></textarea>
-              </div>
-            </div>
-
-            <div class="fcf-form-group">
-              <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send
-                Message</button>
-            </div>
-
-            <div class="fcf-credit" id="fcf-credit">
-              Simple HTML email form provided by: <a href="https://www.freecontactform.com"
-                target="_blank">FreeContactForm.com</a>
-            </div>
-
-          </form>
+         <form method="POST" action="mail-script.php">
+                 Subject:
+                 <input type="text" name="subject" size="20">
+                 <br/>
+                 <br/>
+                 Name:
+                 <input type="text" name="name" size="20">
+                 <br/>
+                 <br/>
+                 E-mail:
+                 <input type="email" name="email" size="20">
+                 <br/>
+                 <br/>
+                 Message:
+                 <br/>
+                 <textarea rows="9" name="message" cols="30">
+                 </textarea>
+                 <br/>
+                 <br/>
+                 <input type="submit" value="Send" name="submit">
+             </form>
     </div>
 
     <!-- CONTACT DETAILS -->
@@ -199,4 +185,5 @@
     </div>
   </body>
 </html>
+
 
